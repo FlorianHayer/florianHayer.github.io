@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <nav>
+        <a href="./audi.html">Audi</a>
+        <a href="./index.html">Home</a>
+        <a href="./mazda.html">Mazda</a>
+    </nav>
+    <h1>Car Gallery</h1>
+
+    <main>
+        <div id="images">
+            <img class="img" id="img1" src="" alt="Image 1">
+            <img class="img" id="img2" src="" alt="Image 2">
+            <img class="img" id="img3" src="" alt="Image 3">
+            <img class="img" id="img4" src="" alt="Image 4">
+            <img class="img" id="img5" src="" alt="Image 5">
+        </div>
+    </main>
+    <div id="button-box">
+        <div class="button" onclick="last()">&lt;</div>
+        <div class="button" onclick="next()">&gt;</div>
+    </div>
 </body>
 </html>
